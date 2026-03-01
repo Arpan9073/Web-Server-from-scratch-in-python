@@ -63,8 +63,15 @@ To run this project, you need:
 - A web browser (Chrome, Firefox, Edge, etc.)
 - (Optional) Devices connected to the same local network for cross-device testing
 
-### 🔎 Check Python Version
+## 🌐 Network Access
 
-```bash
-python --version
-```
+This server can be accessed from other devices (such as mobile phones, tablets, or other computers) as long as:
+
+- Both devices are connected to the **same local network (Wi-Fi/LAN)**.
+- You use the server machine's **local IP address** (e.g., `192.168.x.x`) instead of `localhost`.
+
+### ⚠️ Important Notes
+
+- This works only within the same local network.
+- Firewall settings may need to allow incoming connections on the specified port.
+- This server is not exposed to the public internet.
