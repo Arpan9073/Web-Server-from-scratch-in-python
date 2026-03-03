@@ -1,6 +1,6 @@
 import socket
 
-addr = ("192.168.0.107", 4080)
+addr = ("127.0.0.1", 4080)
 
 
 def start_server():
