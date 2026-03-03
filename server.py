@@ -17,8 +17,6 @@ def start_server():
         request = client_socket.recv(1024)
 
         header = request.decode().split("\n")[0]
-        print(header)
-
         mtd = header.split(" ")[0]
 
         if mtd == "GET":
